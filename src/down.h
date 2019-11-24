@@ -5,7 +5,7 @@ class Down: public TelloPro
 {
 public:
 	Down();
-	Down(int_value);
+	Down(int _value);
 	
 public:
 	double get_delay();

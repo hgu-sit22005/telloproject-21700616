@@ -5,7 +5,7 @@ class Right: public TelloPro
 {
 public:
 	Right();
-	Right(int_value);
+	Right(int _value);
 	
 public:
 	double get_delay();

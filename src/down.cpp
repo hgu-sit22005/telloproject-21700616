@@ -7,7 +7,7 @@ Down::Down()
 	strcpy(command, "down 20");
 }
 
-Down::Down(int_value)
+Down::Down(int _value)
 {
 	std::stringstream sstream;
 	sstream<<"down "<< _value;

@@ -5,7 +5,7 @@ class Up: public TelloPro
 {
 public:
 	Up();
-	Up(int_value);
+	Up(int _value);
 	
 public:
 	double get_delay();

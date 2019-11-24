@@ -7,7 +7,7 @@ Left::Left()
 	strcpy(command, "left 20");
 }
 
-Left::Left(int_value)
+Left::Left(int _value)
 {
 	std::stringstream sstream;
 	sstream<<"left "<< _value;

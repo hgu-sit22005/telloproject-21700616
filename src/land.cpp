@@ -7,7 +7,7 @@ Land::Land()
 	strcpy(command, "land 20");
 }
 
-Land::Land(int_value)
+Land::Land(int _value)
 {
 	std::stringstream sstream;
 	sstream<<"land "<< _value;

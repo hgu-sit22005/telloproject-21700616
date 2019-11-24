@@ -5,7 +5,7 @@ class Back: public TelloPro
 {
 public:
 	Back();
-	Back(int_value);
+	Back(int _value);
 	
 public:
 	double get_delay();

@@ -7,7 +7,7 @@ Back::Back()
 	strcpy(command, "back 20");
 }
 
-Back::Back(int_value)
+Back::Back(int _value)
 {
 	std::stringstream sstream;
 	sstream<<"back "<< _value;

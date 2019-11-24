@@ -5,7 +5,7 @@ class Cw: public TelloPro
 {
 public:
 	Cw();
-	Cw(int_value);
+	Cw(int _value);
 	
 public:
 	double get_delay();

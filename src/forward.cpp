@@ -7,7 +7,7 @@ Forward::Forward()
 	strcpy(command, "forward 20");
 }
 
-Forward::Forward(int_value)
+Forward::Forward(int _value)
 {
 	std::stringstream sstream;
 	sstream<<"forward "<< _value;

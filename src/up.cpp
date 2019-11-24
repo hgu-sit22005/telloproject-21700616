@@ -7,7 +7,7 @@ Up::Up()
 	strcpy(command, "up 20");
 }
 
-Up::Up(int_value)
+Up::Up(int _value)
 {
 	std::stringstream sstream;
 	sstream<<"up "<< _value;

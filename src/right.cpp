@@ -7,7 +7,7 @@ Right::Right()
 	strcpy(command, "right 20");
 }
 
-Right::Right(int_value)
+Right::Right(int _value)
 {
 	std::stringstream sstream;
 	sstream<<"right "<< _value;

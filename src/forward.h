@@ -5,7 +5,7 @@ class Forward: public TelloPro
 {
 public:
 	Forward();
-	Forward(int_value);
+	Forward(int _value);
 	
 public:
 	double get_delay();

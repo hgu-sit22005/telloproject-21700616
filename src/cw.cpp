@@ -7,7 +7,7 @@ Cw::Cw()
 	strcpy(command, "cw 20");
 }
 
-Cw::Cw(int_value)
+Cw::Cw(int _value)
 {
 	std::stringstream sstream;
 	sstream<<"cw "<< _value;
