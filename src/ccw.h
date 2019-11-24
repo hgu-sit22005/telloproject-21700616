@@ -1,11 +1,11 @@
 #pragma once
 #include "TelloPro.h"
 
-class Left: public TelloPro
+class Ccw: public TelloPro
 {
 public:
-	Left();
-	Left(int_value);
+	Ccw();
+	Ccw(int_value);
 	
 public:
 	double get_delay();
